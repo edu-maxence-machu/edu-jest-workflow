@@ -10,7 +10,7 @@ describe('FizzBuzz', () => {
         if(i % 5 === 0 && i % 3 === 0){
           expect(fizzbuzz(i)).toBe('FizzBuzz');
         } else if(i % 3 === 0){
-          expect(fizzbuzz(i)).toBe('Fizzz');
+          expect(fizzbuzz(i)).toBe('Fizz');
         } else if(i % 5 === 0){
           expect(fizzbuzz(i)).toBe('Buzz');
         } else {
