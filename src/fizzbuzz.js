@@ -1,4 +1,3 @@
-
 export const fizzbuzz = (nb)=>{
     if(nb % 15 === 0) {return 'FizzBuzz'} 
     if(nb % 5 === 0) {return 'Buzz'} 
